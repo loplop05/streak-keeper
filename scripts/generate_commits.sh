@@ -19,8 +19,8 @@ LOG_FILE="${ROOT_DIR}/logs/streak.log"
 
 COMMIT_COUNT=""
 DRY_RUN=false
-AUTHOR_NAME="${GIT_NAME:-${GIT_USER_NAME:-Mahmoud Al-Esawi}}"
-AUTHOR_EMAIL="${GIT_EMAIL:-${GIT_USER_EMAIL:-esawi@ieee.org}}"
+AUTHOR_NAME="${GIT_NAME:-${GIT_USER_NAME:-loplop05}}"
+AUTHOR_EMAIL="${GIT_EMAIL:-${GIT_USER_EMAIL:-loplop05@users.noreply.github.com}}"
 
 # ------------------------------------------------------------------------------
 # Parse Command Line Arguments
