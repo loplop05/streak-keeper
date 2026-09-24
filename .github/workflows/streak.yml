@@ -27,12 +27,14 @@ jobs:
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: 🎲 Execute Streak Generator Engine
         env:
           INPUT_COUNT: ${{ github.event.inputs.commit_count }}
           GIT_NAME: ${{ vars.GIT_USER_NAME || secrets.GIT_USER_NAME || 'loplop05' }}
           GIT_EMAIL: ${{ vars.GIT_USER_EMAIL || secrets.GIT_USER_EMAIL || 'loplop05@users.noreply.github.com' }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           chmod +x scripts/generate_commits.sh
           if [ -n "$INPUT_COUNT" ] && [ "$INPUT_COUNT" -gt 0 ]; then

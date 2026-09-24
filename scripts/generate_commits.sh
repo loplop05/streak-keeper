@@ -128,6 +128,12 @@ echo "===================================================="
 if [[ "$DRY_RUN" = false ]]; then
   git config --local user.name "$AUTHOR_NAME"
   git config --local user.email "$AUTHOR_EMAIL"
+  
+  # Add GitHub token if running in CI
+  if [[ -n "${GITHUB_TOKEN:-}" ]]; then
+    git config --local credential.helper store
+    echo "https://x-access-token:${GITHUB_TOKEN}@github.com" > ~/.git-credentials
+  fi
 fi
 
 # Prepare GitHub Actions Step Summary if running in CI
@@ -172,6 +178,12 @@ done
 if [[ "$DRY_RUN" = false && -n "${GITHUB_ACTIONS:-}" ]]; then
   echo ""
   echo "Syncing and pushing to origin main..."
+  
+  # Set up the remote URL with authentication if GitHub token is available
+  if [[ -n "${GITHUB_TOKEN:-}" ]]; then
+    git remote set-url origin "https://x-access-token:${GITHUB_TOKEN}@github.com/loplop05/streak-keeper.git"
+  fi
+  
   git pull --rebase origin main || true
   git push origin main
   echo "✅ Push completed successfully!"
