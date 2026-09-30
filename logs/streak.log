@@ -957,3 +957,4 @@ Restoring streak 3 for 0 days ago
 [2026-09-30T19:45:10Z] Streak update #14: docs: clarify API endpoint parameter descriptions
 [2026-09-30T19:45:10Z] Streak update #15: test(api): add integration test suite
 [2026-09-30T19:45:10Z] Streak update #16: fix(auth): handle expired token error gracefully
+[2026-09-30T19:45:11Z] Streak update #17: docs: clarify API endpoint parameter descriptions
