@@ -1065,3 +1065,4 @@ Restoring streak 3 for 0 days ago
 [2026-10-26T16:25:40Z] Streak update #2: perf: improve rendering performance for large lists
 [2026-10-26T16:25:40Z] Streak update #3: style: enforce uniform spacing in stylesheets
 [2026-10-26T16:25:40Z] Streak update #4: feat(i18n): support localized date formats
+[2026-10-26T16:25:40Z] Streak update #5: fix(cache): invalidate stale memory cache on logout
