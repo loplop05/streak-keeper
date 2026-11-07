@@ -1113,3 +1113,4 @@ Restoring streak 3 for 0 days ago
 [2026-11-07T16:03:24Z] Streak update #2: docs: update setup instructions in README.md
 [2026-11-07T16:03:24Z] Streak update #3: feat(auth): add rate limiting for sensitive routes
 [2026-11-07T16:03:24Z] Streak update #4: refactor(core): optimize state management logic
+[2026-11-07T16:03:24Z] Streak update #5: docs: update architecture diagrams and workflow docs
