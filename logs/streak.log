@@ -1123,3 +1123,4 @@ Restoring streak 3 for 0 days ago
 [2026-11-09T20:22:09Z] Streak update #1: style: clean up css utility classes
 [2026-11-09T20:22:09Z] Streak update #2: docs: update setup instructions in README.md
 [2026-11-09T20:22:09Z] Streak update #3: feat(api): add error handling middleware
+[2026-11-09T20:22:09Z] Streak update #4: ci: update workflow triggers
