@@ -1130,3 +1130,4 @@ Restoring streak 3 for 0 days ago
 [2026-11-11T17:39:22Z] Streak update #2: perf: improve rendering performance for large lists
 [2026-11-11T17:39:22Z] Streak update #3: perf(bundle): enable tree shaking for vendor modules
 [2026-11-12T17:52:13Z] Streak update #1: ci: update workflow triggers
+[2026-11-12T17:52:13Z] Streak update #2: docs: clarify API endpoint parameter descriptions
