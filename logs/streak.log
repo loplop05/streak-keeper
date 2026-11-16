@@ -1151,3 +1151,4 @@ Restoring streak 3 for 0 days ago
 [2026-11-15T16:45:20Z] Streak update #6: feat(components): add modal confirmation dialog
 [2026-11-16T19:58:15Z] Streak update #1: fix(cache): invalidate stale memory cache on logout
 [2026-11-16T19:58:15Z] Streak update #2: style: format code according to prettier guidelines
+[2026-11-16T19:58:15Z] Streak update #3: docs: update setup instructions in README.md
