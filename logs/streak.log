@@ -1189,3 +1189,4 @@ Restoring streak 3 for 0 days ago
 [2026-11-26T19:23:34Z] Streak update #1: refactor(hooks): decouple reactive event listeners
 [2026-11-26T19:23:34Z] Streak update #2: ci: update workflow triggers
 [2026-11-26T19:23:34Z] Streak update #3: fix(cache): invalidate stale memory cache on logout
+[2026-11-26T19:23:34Z] Streak update #4: fix(auth): handle expired token error gracefully
